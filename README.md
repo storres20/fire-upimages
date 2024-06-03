@@ -1,3 +1,10 @@
+# Fire-upimages
+
+This is a web application that let you upload files to firebase and get back an online URL
+
+![image](https://github.com/storres20/fire-upimages/assets/81504385/ca5763a4-a8b4-4f51-8acb-4878e5514320)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
