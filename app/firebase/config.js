@@ -31,7 +31,7 @@ Upload a file to firebase storage
 */
 
 export async function uploadFile(file) {
-  const storageRef = ref(storage, v4())
+  const storageRef = ref(storage, `fire-upimages/${v4()}`); // Add "fire-upimages" folder before v4()
   await uploadBytes(storageRef, file)
   const url = await getDownloadURL(storageRef)
   return url
